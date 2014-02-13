@@ -1,0 +1,5 @@
+%h1 Storyboards
+=image_tag "storyb.jpg"
+%br
+%br
+= link_to 'Back to movie list', movies_path

@@ -1,0 +1,24 @@
+-#  This file is app/views/movies/index.html.haml
+%h1 About
+
+%table#movies
+  %thead
+    %tr
+      %th No.
+      %th Number
+      %th Name
+     
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= "Piradee"
+        %td= movie.rating
+        %td= movie.release_date
+        
+      %tr
+        %td= "Piradee"
+        %td= movie.rating
+        %td= movie.release_date
+       
+
+= link_to 'Add new movie', new_movie_path

@@ -1,0 +1,6 @@
+%h1 Stakeholders
+
+=image_tag "stake.jpg"
+%br
+%br
+= link_to 'Back to movie list', movies_path

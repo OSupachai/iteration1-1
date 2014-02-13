@@ -1,0 +1,58 @@
+-#  This file is app/views/movies/index.html.haml
+%table#head
+  %thead
+    %tr
+      %th= link_to 'Storyboards page', "movies/storyboards.html" 
+      %th= link_to 'Feature page', "movies/feature.html"
+      %th= link_to 'ER-diagram page', "movies/er.html" 
+      %th= link_to 'Stakeholders page', "movies/stakeholder.html" 
+%h1 About
+
+
+%table#movies
+  %thead
+    %tr
+      %th No.
+      %th Student ID
+      %th Name
+	
+     
+  %tbody
+    %tr
+      %td= "1"
+      %td= "5410450018"
+      %td= "Pramrudee Thongmuenglong"
+    %tr
+      %td= "2"
+      %td= "5410520166"
+      %td= "Supachai Onmasai"
+    %tr
+      %td= "3"
+      %td= "5410610736 "
+      %td= "Supatra Pothidet"
+    %tr
+      %td= "4"
+      %td= "5410610926"
+      %td= "Warakorn Plasuwan"
+    %tr
+      %td= "5"
+      %td= "5410611403"
+      %td= "Piradee Bunprasit"
+
+%h1
+
+%h2= link_to "Link-Tracker", "https://www.pivotaltracker.com/s/projects/1012282"
+%h2= link_to "Link-Github", "https://www.github.com/OSupachai/monkey"
+%br
+
+%h2 Interation1-1
+%h2 Feature : Add a job
+
+%h3 As a people want to share
+%h3 So that I can share a job with other users
+%h3 I want to add new job of company are open to internship to Monkey Banana.
+
+
+
+
+

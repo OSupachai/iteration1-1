@@ -1,0 +1,11 @@
+class MoviesController < ApplicationController
+  def index
+   @storyboards
+   
+  end
+  def about
+  end
+  def storyboards
+   
+  end
+end
